@@ -1,0 +1,1 @@
+app.activeDocument.pageItems.everyItem().locked = false;
