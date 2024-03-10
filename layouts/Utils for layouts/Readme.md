@@ -1,1 +1,1 @@
-Useful script for working with layouts.
+Useful scripts for working with layouts.
