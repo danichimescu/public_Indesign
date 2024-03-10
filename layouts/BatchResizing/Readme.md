@@ -1,3 +1,4 @@
+(work in progress)
 # Batch resizing
 **on short**: 
 a tool for resizing page layouts from indesign files. The data with new dimensions, new names and other info is loaded from an excel file.
@@ -7,7 +8,7 @@ a tool for resizing page layouts from indesign files. The data with new dimensio
 ![image](https://github.com/danichimescu/public_Indesign/assets/56690991/f848edda-39b8-43fb-b103-ce744afad6e7)
 
 
-(work in progress)
+
 
 # Add labels
 
