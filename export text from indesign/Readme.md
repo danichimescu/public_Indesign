@@ -35,7 +35,8 @@
 
 ## **before and after:**
 
-![magazine-clean-before-and-after-1]([https://github.com/danichimescu/public_Indesign/assets/56690991/109402c6-7601-46ef-a3bd-6af0cf127c8c](https://private-user-images.githubusercontent.com/56690991/309693734-109402c6-7601-46ef-a3bd-6af0cf127c8c.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTAwOTgyNDMsIm5iZiI6MTcxMDA5Nzk0MywicGF0aCI6Ii81NjY5MDk5MS8zMDk2OTM3MzQtMTA5NDAyYzYtNzYwMS00NmVmLWEzYmQtNmFmMGNmMTI3YzhjLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzEwVDE5MTIyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE5OWQ2ZDFhMTc4MGU2YTRjODMzOTMxMTljYWVjYjhmYTI3MmIxNTZjM2MzOGNiMGRlYzg5YTI5ZTIzYmRlZWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.lQKOK3LgJNp5R3N8YWBFfF6CoQShU_q3j5aCwZ806ps))
+![clean text before and after](https://github.com/danichimescu/public_Indesign/assets/56690991/d63a88a8-0c7d-4756-88a9-bac283b5996c)
+
 
 
 # about > 02_export text from indd.jsx
@@ -48,16 +49,19 @@ text with description is separated in 2 categories one with the name of product 
 **the solution for find the match between image and his description: find the shortest distance between center of text frame with description and center of image. this center are defined by 2 variables (x and y). 
 the script is calculates the Euclidean distance between two points in a two-dimensional space.**
 
-![image](https://github.com/danichimescu/public_Indesign/assets/56690991/b6f32389-86be-43cd-8e47-c85749dc3cf2)
+![arrows to text for a product](https://github.com/danichimescu/public_Indesign/assets/56690991/f8e9b45f-0ae0-4515-a108-5c078425b04b)
+
 
 
 **the solution for check if the match of image and description is good: the script is drawing an arrow between image and description. in this way you can check very fast if the matching is correct**
 
-![image](https://github.com/danichimescu/public_Indesign/assets/56690991/dc08cccb-bb4f-49b6-84b3-ba6fbc595861)
+![check with arrow the description of product](https://github.com/danichimescu/public_Indesign/assets/56690991/037362dd-179d-4fbe-a080-c7702d47e2d6)
+
 
 ## at the end the excel look like this:
-![image](https://github.com/danichimescu/public_Indesign/assets/56690991/3bf0b925-9f20-4ca8-97c2-cea0c4073e0b)
 
+
+![excelfile at the end](https://github.com/danichimescu/public_Indesign/assets/56690991/07e6a412-0845-4e37-ae8d-de68035984a9)
 
 
 
