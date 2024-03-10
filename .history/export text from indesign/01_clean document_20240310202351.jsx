@@ -176,7 +176,7 @@ function cleanDocument() {
     //-------------------- ungroup items
     ungroupall();
     function ungroupall() {
-        var sourcePages = app.activeDocument.pages;
+        var sourcePages = app.activeDocument.pages; //app.documents[1].pages;
 
         for (var i = 0; i < sourcePages.length; i++) {
             itemsOnPage = sourcePages[i].pageItems;

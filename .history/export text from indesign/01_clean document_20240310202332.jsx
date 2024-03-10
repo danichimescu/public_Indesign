@@ -56,7 +56,14 @@ function cleanDocument() {
         this.b.maxvalue = steps;
     };
 
-
+    /*   
+           progress.close();
+          progress.display("Initializing...");
+          progress.set(layerRect.rectangles.length);
+          progress.increment();
+          progress.display(link.name);
+      
+      */
 
     progress.display("Initializing...");
     $.sleep(1000);
@@ -176,7 +183,7 @@ function cleanDocument() {
     //-------------------- ungroup items
     ungroupall();
     function ungroupall() {
-        var sourcePages = app.activeDocument.pages;
+        var sourcePages = app.activeDocument.pages; //app.documents[1].pages;
 
         for (var i = 0; i < sourcePages.length; i++) {
             itemsOnPage = sourcePages[i].pageItems;
